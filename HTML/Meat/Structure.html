@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>structure</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/HTML/Meat/Structure.html">
+  <link rel="alternate" type="application/rss+xml" title="341" href="/feed.xml">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:100,400,500|Roboto+Mono:300" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/Scripts/scripts.js"></script>
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+
+  <div class="wrapper_nav">
+    
+    
+      <a href="/index.html"><h1>341</h1></a>    
+  
+    
+    <nav class="main">
+        <span id="html" class="nav active html"><span class="nav_code">&lt;/&gt;</span><br>HTML</span> 
+        <span id="css" class="nav"><span class="nav_code">.{}</span><br>CSS</span>
+        <span id="jq" class="nav"><span class="nav_code">$()</span><br>jQuery</span> 
+        <span id="dc" class="nav"><span class="nav_code">!?!</span><br>Damage Control</span>    
+    </nav>
+    
+  </div>
+  
+  <nav class="sub html">
+        <div class="cross">X</div>
+        <h5>HTML</h5>
+        <p>The most basic building block of the Web. </p>
+        <hr>
+        <a  href="/HTML/Intro.html">Intro</a> 
+        <a class="active_sub" href="/HTML/Meat/Structure.html">Structure</a> 
+        <a  href="/HTML/Meat/The_div.html">The Div</a>     
+    </nav>
+    
+    
+    <nav class="sub css">
+        <div class="sub_nav_content">
+            <div class="cross">X</div>
+            <h5>CSS</h5>
+            <p>Describes how HTML elements are to be displayed (AKA the Design Elements)</p>
+            <hr>
+            <a  href="/css/intro.html">Intro</a> 
+            <a  href="/css/Meat/class.html">Classes vs ID’s</a> 
+            <a  href="/css/Meat/Box_model.html">Box Model</a>   
+            <a  href="/css/Meat/Positioning.html">Positioning</a> 
+            <a  href="/css/Meat/floats.html">Floats</a> 
+            <a  href="/css/Meat/flexbox.html">Flexbox</a>   
+        </div>  
+    </nav>
+    
+    
+    <nav class="sub jquery">
+         <div class="sub_nav_content">
+            <div class="cross">X</div>
+            <h5>jQuery</h5>
+            <p>A fast, small, and feature-rich JavaScript library</p>
+            <hr>
+            <a  href="/jquery/intro.html">Intro</a> 
+            <a  href="/jquery/meat/Money_($).html">Money ($)</a> 
+            <a  href="/jquery/meat/Basic_Events.html">Basic Events</a>
+            <a  href="/jquery/meat/jQuery_and_Beyond.html" class="twoline">jQuery and Beyond</a> 
+        </div>       
+    </nav>
+    
+    <nav class="sub dc">
+        <div class="sub_nav_content">
+            <div class="cross">X</div>
+            <h5>Damage Control</h5>
+            <p>For when everything<br>goes wrong</p>
+            <hr>
+            <a  href="/DC/intro.html">Intro</a> 
+            <a  href="/DC/Meat/AskingforHelp.html" class="twoline">Asking for Help</a> 
+            <a  href="/DC/Meat/The_inspector.html">The Inspector</a>
+            <a  href="/DC/Meat/google.html">Google</a>
+            <a  href="/DC/Meat/resources.html">Resources</a>    
+        </div>    
+    </nav>
+  
+  
+  
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="meat">
+    
+    <div class="left">
+         <h2>02</h2>
+         <h1>structure</h1>
+         
+         <article>
+
+    <div class="meat_p first active" data-content="sectionOne">
+        <p>Your HTML document must always start with the <!doctype HTML> tag. This tag acts as a set of instruction to the web browser about what version of HTML the page is written in. Once you establish your <!doctype> tag, that’s when the core structure begins. </p>
+        <p>Start with your HTML tags <code>&lt;html&gt;&lt;/html&gt;</code>, everything in between those tags will be considered a part of your document. Look at that; you just made your first tag pairing. Once you understand how tags surround (nearly) everything in tag pairings, it’s easy to comprehend and write basic HTML.  </p>
+        <p>A common misconception about the HTML tag is that everything in between the tag pairing will be visible. We will discuss the visual aspect of HTML very soon. </p>
+    </div>
+
+
+    <div class="meat_p second" data-content="sectionSecond">
+        <p>So now that you have a good start let’s focus on adding some details by adding a <code>&lt;head&gt;&lt;/head&gt;</code> section. The head section is filled with all the details that the browser will use to describe your website to search engines such as Google. This is where your site title, description, and keywords live. Also, the head section will be where you will content external documents such as your CSS stylesheet. </p>
+        <p>Just like HTML with the HTML tag, none of this info will be visible on your website, but be aware that be visible on search engines and preview windows. </p>
+    </div>
+
+
+    <div class="meat_p third" data-content="sectionThird">
+        <p>We have already gone over the beginning aspects of the structure of HTML, but there’s a bit more to it. Within the body section, you have some tools to help create even more structure. The <code>&lt;header&gt;&lt;nav&gt;&lt;article&gt;&lt;section&gt;&lt;footer&gt;</code> tags can be used to help define certain parts of a website. For example, the <code>&lt;nav&gt;</code> would set the content related to the site’s navigation. Unlike say the <code>&lt;body&gt;</code> tag, these tags are not required for the site to function, but it is standard to use them because they help so much with the organization of the code. </p>
+    </div>
+
+
+    <div class="meat_p fourth" data-content="sectionFourth">
+        <p>Ah the body tag, this is where the magic happens. Everything placed within this set of tags will help build your website. In here you can place as much text, links, images, and tags as you want. As you enter information into the body of the document it will fill the browser window from top to bottom in the order you place the elements in the HTML document, simple right? As can see, all the items are entering the flow of the page hugging the left side of the page, in its default styling.  </p>
+    </div>
+
+
+    <div class="meat_p fifth" data-content="sectionFifth">
+        <p>Of course, if you are going to build something cool for the web, you’re going to need some tools. We have already started to discuss how to use tags, but what tags are available to you as a designer? What’s in your toolkit?</p>
+        <p>These tags hold a lot of creative power and are the most common tags you will use so try to get as comfortable with them as possible. You can practice using these tags and see them in context by following the Codepen link.</p>
+    </div>    
+
+    <div class="mini-nav">
+        <div class="mini-circle" data-content-target="sectionOne"><div class="active_circle"></div></div>
+        <div class="mini-circle" data-content-target="sectionSecond"></div>
+        <div class="mini-circle" data-content-target="sectionThird"></div>
+        <div class="mini-circle" data-content-target="sectionFourth"></div>
+        <div class="mini-circle" data-content-target="sectionFifth"></div>
+    </div>
+
+</article>
+
+
+<!--Links-------------------------------------------------------------->
+  
+<div class="links_group">
+  <h4>Useful Links</h4> 
+   
+   
+    <div class="links first active" data-content="sectionOne">
+        <div class="link"><a href="https://www.codecademy.com/courses/web-beginner-en-HZA3b/0/1" target="_blank"><img src="/Images/codecademy.png" alt="codecademy logo"></a></div>
+        <div class="link"><a href="https://www.khanacademy.org/computing/computer-programming/html-css/intro-to-html/p/html-basics" target="_blank"><img src="/Images/khan.png" alt="khanacademy logo"></a></div>
+        <div class="link"><a href="http://www.makeuseof.com/tag/5-steps-understanding-basic-html-code/" target="_blank"><img src="/Images/muo.png" alt="make use of logo"></a></div>
+    </div>
+
+
+    <div class="links second" data-content="sectionSecond">
+        <div class="link"><a href="https://stackoverflow.com/questions/2189452/when-to-use-margin-vs-padding-in-css" target="_blank"><img src="/Images/stack.png" alt="stack overflow logo"></a></div>
+        <div class="link"><a href="https://medium.com/@teddycrpineau/margin-vs-padding-the-dilemma-1d66f689f8bf" target="_blank"><img src="/Images/medium.png" alt="medium logo"></a></div>
+        <div class="link"><a href="http://codepen.io/antracks/pen/BWpJjp" target="_blank"><img src="/Images/codepen.png" alt="codepen logo"></a></div>
+    </div>
+
+    <div class="links third" data-content="sectionThird">
+        <div class="link"><a href="http://learnlayout.com/margin-auto.html" target="_blank"><img src="/Images/learn_layout.png" alt="learn layout logo"></a></div>
+        <div class="link"><a href="https://stackoverflow.com/questions/3170772/what-does-auto-do-in-margin0-auto" target="_blank"><img src="/Images/stack.png" alt="stack overflow logo"></a></div>
+        <div class="link"><a href="https://www.sitepoint.com/community/t/when-will-margin-auto-work-and-not-work/10694" target="_blank"><img src="/Images/sitepoint.png" alt="sitepoint logo"></a></div>
+        <div class="link"><a href="http://codepen.io/SitePoint/pen/gwaErx" target="_blank"><img src="/Images/codepen.png" alt="codepen logo"></a></div>
+    </div>
+    
+    <div class="links fourth" data-content="sectionFourth">
+    </div>
+
+    
+    <div class="links fifth" data-content="sectionFifth">
+        <div class="link"><a href="https://www.w3schools.com/tags/ref_byfunc.asp" target="_blank"><img src="/Images/w3.png" alt="w3 schools logo"></a></div>
+        <div class="link"><a href="#" target="_blank"></a></div>
+
+    </div>
+
+</div>
+
+
+<!--Right Side Code-------------------------------------------------------------->
+
+
+
+
+          
+        
+    </div>
+    
+    
+
+<div class="right html">
+
+
+    <div class="code code_code active" data-content="sectionOne">
+       <code class="active_code">
+            &lt;!DOCTYPE html&gt;<br>
+            &lt;html&gt;<br>
+        </code>
+
+       <code class="deactive_code">
+             &lt;head&gt;<br>
+             &lt;title&gt;Page Title&lt;/title&gt;<br>
+             &lt;meta name="description" content="..." /&gt;<br>
+             &lt;meta name="keywords" content="..." /&gt;<br>
+             &lt;/head&gt;<br><br>
+
+             &lt;body&gt;<br>
+           <div class="indent">The content of the document......<br></div>
+
+             &lt;/body&gt;<br>
+       </code>
+
+       <code class="active_code">
+            &lt;/html&gt;
+       </code>
+
+    </div>
+
+
+    <div class="code code_code" data-content="sectionSecond"> 
+        <code class="active_code">
+             &lt;!DOCTYPE html&gt;<br>
+             &lt;html&gt;<br>
+             &lt;head&gt;<br>
+             &lt;title&gt;Page Title&lt;/title&gt;<br>
+             &lt;meta name="description" content="___" /&gt;<br>
+             &lt;meta name="keywords" content="____" /&gt;<br>
+             &lt;/head&gt;<br>
+        </code> <code class="deactive_code">
+             &lt;body&gt;<br>
+            <div class="indent">The content of the document...<br></div>
+
+             &lt;/body&gt;<br>
+       </code> 
+
+        <code class="active_code">
+            &lt;/html&gt;
+       </code> 
+
+    </div>
+
+
+    <div class="code code_code" data-content="sectionThird"> 
+        <code class="active_code">
+             &lt;!DOCTYPE html&gt;<br>
+             &lt;html&gt;<br>
+             &lt;head&gt;<br>
+             &lt;title&gt;Page Title&lt;/title&gt;<br>
+        </code>
+        <code class="deactive_code">
+             &lt;meta name="description" content="___" /&gt;<br>
+             &lt;meta name="keywords" content="____" /&gt;<br>
+             &lt;/head&gt;<br>
+        </code>
+        <code class="active_code">
+             &lt;body&gt;<br>
+            <div class="indent">The content of the document...<br></div>
+
+             &lt;/body&gt;<br>
+        </code> 
+
+        <code class="active_code">
+            &lt;/html&gt;
+       </code> 
+
+    </div>
+
+
+    <div class="code code_code" data-content="sectionFourth"> 
+       <div class="code_top">
+            <code class="active_code">
+                 &lt;!DOCTYPE html&gt;<br>
+                 &lt;html&gt;<br>
+                 &lt;head&gt;<br>
+                 &lt;title&gt;&lt;Page Title&lt;/title&gt;<br>
+            </code>
+            <code class="deactive_code">
+                 &lt;meta name="description" content="___" /&gt;<br>
+                 &lt;meta name="keywords" content="____" /&gt;<br>
+                 &lt;/head&gt;
+            </code>
+            <br>
+            <code class="active_code">
+                 &lt;body&gt;<br>
+                <div class="indent">&lt;h1&gt;HEADING 1&lt;/h1&gt;<br></div>
+                <div class="indent">&lt;p&gt;...&lt;/p&gt;<br></div>
+                 &lt;/body&gt;<br>
+            </code> 
+
+            <code class="active_code">
+                &lt;/html&gt;
+            </code> 
+        </div>
+
+    </div>
+    
+    <div class="code code_code" data-content="sectionFifth"> 
+        <div class="left_code">
+            <code>&lt;h1&gt;&lt;h2&gt;&lt;h3&gt;&lt;h4&gt;&lt;h5&gt;&lt;h6&gt;&lt;p&gt;&lt;a&gt;&lt;ol&gt;&lt;ul&gt;&lt;il&gt;&lt;hr&gt;&lt;br&gt;&lt;img&gt;&lt;div&gt;</code>
+        </div>
+        <hr class="vertical">
+        <div class="right_code">
+            <p>Heading 1</p>
+            <p>Heading 2</p>
+            <p>Heading 3</p>
+            <p>Heading 4</p>
+            <p>Heading 5</p>
+            <p>Heading 6</p>
+            <p>Paragraph</p>
+            <p>Anchor, typically paired with “href=”</p>
+            <p>Organized list (bullet points)</p>
+            <p>Unorganized list (no bullet points)</p> 
+            <p>List element (what’s inside the list)</p>
+            <p>Horizontal rule (aka a line)</p>
+            <p>Line break</p>
+            <p>Image tag, always paired with src=””</p>
+            <p>Division or a section in an HTML document</p>
+        </div>
+
+    </div>
+    
+    
+    <a href="/HTML/Meat/The_div.html">
+                 <div class="next_section_meat" id="html">
+                     <p>Next Section: The Div</p>
+                     <img class="arrow" src="/Images/Asset%201.svg">
+                </div>
+            </a>
+    
+    
+</div> 
+
+
+</article>
+
+      </div>
+    </main>
+
+   
+
+  </body>
+
+</html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>classes vs ID&#39;s</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/css/Meat/class.html">
+  <link rel="alternate" type="application/rss+xml" title="341" href="/feed.xml">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:100,400,500|Roboto+Mono:300" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/Scripts/scripts.js"></script>
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+
+  <div class="wrapper_nav">
+    
+    
+      <a href="/index.html"><h1>341</h1></a>    
+  
+    
+    <nav class="main">
+        <span id="html" class="nav"><span class="nav_code">&lt;/&gt;</span><br>HTML</span> 
+        <span id="css" class="nav active css"><span class="nav_code">.{}</span><br>CSS</span>
+        <span id="jq" class="nav"><span class="nav_code">$()</span><br>jQuery</span> 
+        <span id="dc" class="nav"><span class="nav_code">!?!</span><br>Damage Control</span>    
+    </nav>
+    
+  </div>
+  
+  <nav class="sub html">
+        <div class="cross">X</div>
+        <h5>HTML</h5>
+        <p>The most basic building block of the Web. </p>
+        <hr>
+        <a  href="/HTML/Intro.html">Intro</a> 
+        <a  href="/HTML/Meat/Structure.html">Structure</a> 
+        <a  href="/HTML/Meat/The_div.html">The Div</a>     
+    </nav>
+    
+    
+    <nav class="sub css">
+        <div class="sub_nav_content">
+            <div class="cross">X</div>
+            <h5>CSS</h5>
+            <p>Describes how HTML elements are to be displayed (AKA the Design Elements)</p>
+            <hr>
+            <a  href="/css/intro.html">Intro</a> 
+            <a class="active_sub" href="/css/Meat/class.html">Classes vs ID’s</a> 
+            <a  href="/css/Meat/Box_model.html">Box Model</a>   
+            <a  href="/css/Meat/Positioning.html">Positioning</a> 
+            <a  href="/css/Meat/floats.html">Floats</a> 
+            <a  href="/css/Meat/flexbox.html">Flexbox</a>   
+        </div>  
+    </nav>
+    
+    
+    <nav class="sub jquery">
+         <div class="sub_nav_content">
+            <div class="cross">X</div>
+            <h5>jQuery</h5>
+            <p>A fast, small, and feature-rich JavaScript library</p>
+            <hr>
+            <a  href="/jquery/intro.html">Intro</a> 
+            <a  href="/jquery/meat/Money_($).html">Money ($)</a> 
+            <a  href="/jquery/meat/Basic_Events.html">Basic Events</a>
+            <a  href="/jquery/meat/jQuery_and_Beyond.html" class="twoline">jQuery and Beyond</a> 
+        </div>       
+    </nav>
+    
+    <nav class="sub dc">
+        <div class="sub_nav_content">
+            <div class="cross">X</div>
+            <h5>Damage Control</h5>
+            <p>For when everything<br>goes wrong</p>
+            <hr>
+            <a  href="/DC/intro.html">Intro</a> 
+            <a  href="/DC/Meat/AskingforHelp.html" class="twoline">Asking for Help</a> 
+            <a  href="/DC/Meat/The_inspector.html">The Inspector</a>
+            <a  href="/DC/Meat/google.html">Google</a>
+            <a  href="/DC/Meat/resources.html">Resources</a>    
+        </div>    
+    </nav>
+  
+  
+  
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="meat">
+    
+    <div class="left">
+         <h2>02</h2>
+         <h1>classes vs ID's</h1>
+         
+         <!--Content-------------------------------------------------------------->
+
+<article>
+
+    <div class="meat_p first active" data-content="sectionOne">
+        <p>CSS sounds kind of cool right? It where the design becomes a reality in web design, and it can be a lot of fun too. So the first question is, how do you style elements? CSS relays on targeting elements, so it knows what you are trying to design, and this targeting process starts with using classes and ID’s.</p>
+        <p>First, to clarify, classes and ID’s serve the same purpose. Both tools are known as selectors, which gives elements a specified attribute that can be targetted in your CSS style sheet. Though they share a singular purpose, they operate under a different set of rules. Let’s see what those differences are. </p>
+    </div>
+
+
+    <div class="meat_p second" data-content="sectionSecond">
+        <p>Classes are “an identifier that can annotate multiple elements in a document.” In other words, you can use a class multiple times within document, to style various elements, under the same set of rules. Cool, right? Again it goes back to the idea of paragraph styles. Say if you have five items that you want to design the same way, you will use the same class title on all five of those <code>&lt;p&gt;</code> tags. </p>
+        <p>Adding a class to an element is pretty straightforward and fast and can be applied to nearly anything in your HTML document. All you have to do is add class=”______”  to your element. So for example, adding a class to a <code>&lt;p&gt;</code> would look like this <code>&lt;p class=”class1”&gt;...&lt;/p&gt;</code> note, I didn’t have to put the class style in the closing tag. When you add a class, you only have to do it in the beginning.  </p>
+    </div>
+
+
+    <div class="meat_p third" data-content="sectionThird">
+        <p>ID’s are “an identifier unique within the document,” hints the word unique. ID’s can only be used once in a single HTML document. If you try to use it a second time, Brackets (or whatever program you are using) will give you an error. For this reason, it’s common to see developers and designers utilizing classes vs. ID’s in most situations.</p>
+    </div>
+
+
+    <div class="meat_p fourth" data-content="sectionFourth">
+        <p>Now that you know what classes and ID’s are, how do you select them? Again, a simple process by using selectors. </p>
+        <p>Classes are defined by using a period and then placing the class name next to it. For example, if I wanted to select the class of “class1” in my CSS, I would do it by typing <code>.class1{...}</code>. ID’s work in a similar fashion but are rather defined by using the pound sign (#) instead of a period.</p>
+        <p>Note, selecting elements is case sensitive. If the case is not the same, your browser will be unable to match the class and the style together. This just leads to headaches and rough times. </p>
+        
+        <a href="/css/Meat/Box_model.html">
+                <div class="next_section">
+                    <p>Next Section: The Box Model</p> <img class="arrow" src="/Images/Asset%201.svg"> 
+                </div>
+        </a>
+
+    </div>
+
+
+    <div class="mini-nav">
+            <div class="mini-circle" data-content-target="sectionOne"><div class="active_circle"></div></div>
+            <div class="mini-circle" data-content-target="sectionSecond"></div>
+            <div class="mini-circle" data-content-target="sectionThird"></div>
+            <div class="mini-circle" data-content-target="sectionFourth"></div>
+    </div>
+
+</article>
+
+
+<!--Links-------------------------------------------------------------->
+
+<div class="links_group">
+  <h4>Useful Links</h4> 
+
+    <div class="links first active" data-content="sectionOne">
+        <div class="link"><a href="http://www.cheetyr.com/css-selectors" target="_blank"><img src="/Images/cheetyr.png" alt="cheetry logo"></a></div>
+        <div class="link"><a href="https://www.w3schools.com/css/css_syntax.asp" target="_blank"><img src="/Images/w3.png" alt="w3school logo"></a></div>
+        <div class="link"><a href="http://www.htmldog.com/guides/css/intermediate/classid/" target="_blank"><img src="/Images/code_dog.png" alt="htmldog logo"></a></div>
+        <div class="link"><a href="https://www.sitepoint.com/web-foundations/css-selectors/" target="_blank"><img src="/Images/sitepoint.png" alt="sitepoint logo"></a></div>
+    </div>
+
+
+    <div class="links second" data-content="sectionSecond">
+        <div class="link"><a href="https://css-tricks.com/the-difference-between-id-and-class/" target="_blank"><img src="/Images/css_tricks.png" alt="css tricks logo"></a></div>
+        <div class="link"><a href="https://www.w3schools.com/cssref/sel_class.asp" target="_blank"><img src="/Images/w3.png" alt="w3school logo"></a></div>
+    </div>
+
+    <div class="links third" data-content="sectionThird">
+        <div class="link"><a href="https://css-tricks.com/almanac/selectors/i/id/" target="_blank"><img src="/Images/css_tricks.png" alt="css tricks logo"></a></div>
+        <div class="link"><a href="https://www.w3schools.com/cssref/sel_id.asp" target="_blank"><img src="/Images/w3.png" alt="w3school logo"></a></div>
+    </div>
+
+    <div class="links fourth" data-content="sectionFourth">
+        <div class="link"><a href="https://www.sitepoint.com/web-foundations/css-selectors/" target="_blank"><img src="/Images/sitepoint.png" alt="sitepoint logo"></a></div>
+        <div class="link"><a href="https://css-tricks.com/how-css-selectors-work/" target="_blank"><img src="/Images/css_tricks.png" alt="css tricks logo"></a></div>
+    </div>
+
+</div>
+
+
+
+<!--Right Side Code-------------------------------------------------------------->
+
+          
+        
+    </div>
+    
+    
+
+<div class="right css">
+
+
+        <div class="code code_code active" data-content="sectionOne">
+           <code class="active_code">
+                    &lt;html&gt;<br>
+
+                    &lt;head&gt;...&lt;/head&gt;<br>
+
+                    &lt;body&gt;<br>
+                       <div class="indent">&lt;div class = “class”&gt;&lt;/div&gt;<br></div>
+                       <div class="indent">&lt;div class = “class”&gt;&lt;/div&gt;<br></div>
+                       <div class="indent">&lt;div class = “class”&gt;&lt;/div&gt;<br></div>
+                       <div class="indent">&lt;div id = “unique”&gt;&lt;/div&gt;<br></div>
+                    &lt;/body&gt;
+
+                    &lt;/html&gt;
+            </code>
+
+        </div>
+
+        <div class="code code_code" data-content="sectionSecond">
+           <code class="active_code">
+                    &lt;html&gt;
+
+                    &lt;head&gt;...&lt;/head&gt;
+
+                    &lt;body&gt;
+               <div class="indent">&lt;div class = “class”&gt;&lt;/div&gt;<br></div>
+               <div class="indent">&lt;div class = “class”&gt;&lt;/div&gt;<br></div>
+               <div class="indent">&lt;div class = “class”&gt;&lt;/div&gt;<br></div>
+            </code>
+            <code class="deactive_code">           
+                    <div class="indent">&lt;div id = “unique”&gt;&lt;/div&gt;<br></div>
+            </code>
+            <code class="active_code">
+                    &lt;/body&gt;<br>
+
+                    &lt;/html&gt;<br>
+            </code>
+
+        </div>
+
+
+        <div class="code code_code" data-content="sectionThird">
+           <code class="deactive_code">
+                    &lt;html&gt;<br>
+
+                    &lt;head&gt;...&lt;/head&gt;<br>
+
+                    &lt;body&gt;<br>
+                       <div class="indent">&lt;div class = “class”&gt;&lt;/div&gt;<br></div>
+                       <div class="indent">&lt;div class = “class”&gt;&lt;/div&gt;<br></div>
+                       <div class="indent">&lt;div class = “class”&gt;&lt;/div&gt;<br></div>
+            </code>
+            <code class="active_code">           
+                <div class="indent">&lt;div id=“unique”&gt;&lt;/div&gt;<br></div>
+            </code>
+            <code class="deactive_code">
+                    &lt;/body&gt;<br>
+
+                    &lt;/html&gt;<br>
+            </code>
+
+        </div>
+
+
+        <div class="code code_code" data-content="sectionFourth">
+           <code class="active_code"><br>
+               <p class="full"> This code would be found within your style sheet:</p>
+                  <div class="indent">
+                     .class{<br>
+                      <div class="indent">
+                        font-family: roboto;<br>
+                        color: #232323;<br>
+                        type-size: 14px;<br>
+                      </div>
+                    }<br><br>
+
+                    #unique{
+                       <div class="indent">
+                            font-family: roboto;<br>
+                            color: #232323;<br>
+                            type-size: 14px;<br>
+                      </div>
+                    } 
+               </div>
+            </code>
+
+        </div>
+        
+        <a href="/css/Meat/Box_model.html">
+                <div class="next_section_meat" id="css">
+                    <p>Next Section: The Box Model</p> <img class="arrow" src="/Images/Asset%201.svg"> 
+                </div>
+        </a>
+        
+
+</div>
+
+
+
+</article>
+
+      </div>
+    </main>
+
+   
+
+  </body>
+
+</html>

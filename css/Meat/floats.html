@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>floats</title>
+  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/css/Meat/floats.html">
+  <link rel="alternate" type="application/rss+xml" title="341" href="/feed.xml">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:100,400,500|Roboto+Mono:300" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/Scripts/scripts.js"></script>
+  
+
+</head>
+
+
+  <body>
+
+    <header class="site-header" role="banner">
+
+
+  <div class="wrapper_nav">
+    
+    
+      <a href="/index.html"><h1>341</h1></a>    
+  
+    
+    <nav class="main">
+        <span id="html" class="nav"><span class="nav_code">&lt;/&gt;</span><br>HTML</span> 
+        <span id="css" class="nav active css"><span class="nav_code">.{}</span><br>CSS</span>
+        <span id="jq" class="nav"><span class="nav_code">$()</span><br>jQuery</span> 
+        <span id="dc" class="nav"><span class="nav_code">!?!</span><br>Damage Control</span>    
+    </nav>
+    
+  </div>
+  
+  <nav class="sub html">
+        <div class="cross">X</div>
+        <h5>HTML</h5>
+        <p>The most basic building block of the Web. </p>
+        <hr>
+        <a  href="/HTML/Intro.html">Intro</a> 
+        <a  href="/HTML/Meat/Structure.html">Structure</a> 
+        <a  href="/HTML/Meat/The_div.html">The Div</a>     
+    </nav>
+    
+    
+    <nav class="sub css">
+        <div class="sub_nav_content">
+            <div class="cross">X</div>
+            <h5>CSS</h5>
+            <p>Describes how HTML elements are to be displayed (AKA the Design Elements)</p>
+            <hr>
+            <a  href="/css/intro.html">Intro</a> 
+            <a  href="/css/Meat/class.html">Classes vs ID’s</a> 
+            <a  href="/css/Meat/Box_model.html">Box Model</a>   
+            <a  href="/css/Meat/Positioning.html">Positioning</a> 
+            <a class="active_sub" href="/css/Meat/floats.html">Floats</a> 
+            <a  href="/css/Meat/flexbox.html">Flexbox</a>   
+        </div>  
+    </nav>
+    
+    
+    <nav class="sub jquery">
+         <div class="sub_nav_content">
+            <div class="cross">X</div>
+            <h5>jQuery</h5>
+            <p>A fast, small, and feature-rich JavaScript library</p>
+            <hr>
+            <a  href="/jquery/intro.html">Intro</a> 
+            <a  href="/jquery/meat/Money_($).html">Money ($)</a> 
+            <a  href="/jquery/meat/Basic_Events.html">Basic Events</a>
+            <a  href="/jquery/meat/jQuery_and_Beyond.html" class="twoline">jQuery and Beyond</a> 
+        </div>       
+    </nav>
+    
+    <nav class="sub dc">
+        <div class="sub_nav_content">
+            <div class="cross">X</div>
+            <h5>Damage Control</h5>
+            <p>For when everything<br>goes wrong</p>
+            <hr>
+            <a  href="/DC/intro.html">Intro</a> 
+            <a  href="/DC/Meat/AskingforHelp.html" class="twoline">Asking for Help</a> 
+            <a  href="/DC/Meat/The_inspector.html">The Inspector</a>
+            <a  href="/DC/Meat/google.html">Google</a>
+            <a  href="/DC/Meat/resources.html">Resources</a>    
+        </div>    
+    </nav>
+  
+  
+  
+</header>
+
+
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="meat">
+    
+    <div class="left">
+         <h2>05</h2>
+         <h1>floats</h1>
+         
+         <article>
+
+    <div class="meat_p first active" data-content="sectionOne">
+        <p>The float property is a valuable and powerful asset to any web designer/developer working with HTML and CSS. Tragically, it can also cause frustration and confusion if you don’t fully understand how it works.</p>
+        <p>We see floats in the print world every time we pick up a magazine article with an image on the left or right with text flowing nicely around it. In the world of HTML/CSS, the text will wrap around an image with the float property applied to it, much like in a magazine layout. Images are just one of the many use cases for the float property: we can also achieve the popular two-column layout using floats. In fact, you can float just about any element in your HTML. By learning and understanding float property basics, along with position property basics, you will be able to achieve any layout with confidence.</p>
+    </div>
+
+
+    <div class="meat_p second" data-content="sectionSecond">
+        <p>The float property has four values that we can apply to it: left, right, inherit, and none. Each value is pretty self-explanatory. For example, if you assign float: left to an element, it will move to the left side of its parent element. The same idea applies if you were to assign float: right; to an element. That element would be sent off to the right-most boundary of its parent element. The inherit value tells an element to inherit the float value of its parent element. The value none is the default value and tells an element not to float at all.</p>
+    </div>
+
+
+    <div class="meat_p third" data-content="sectionThird">
+        <p>The clear property is directly related to floats. If the element can fit horizontally in the space next to another element which is floated, it will, unless you apply clear to that element in the same direction as the float. Then the element will move down below the floated element. The clear property has three values: left, right and both. Again, the first two values are pretty self-explanatory. The “both” value clears elements on both the left and right side, ensuring no floats can influence the element you are styling. The both value is the most commonly used. </p>
+    </div>
+
+
+
+    <div class="mini-nav">
+            <div class="mini-circle" data-content-target="sectionOne"><div class="active_circle"></div></div>
+            <div class="mini-circle" data-content-target="sectionSecond"></div>
+            <div class="mini-circle" data-content-target="sectionThird"></div>
+    </div>
+
+</article>
+
+<!--Links-------------------------------------------------------------->
+
+<div class="links_group">
+  <h4>Useful Links</h4> 
+
+    <div class="links first active" data-content="sectionOne">
+        <div class="link"><a href="https://css-tricks.com/all-about-floats/" target="_blank"></a><img src="/Images/css_tricks.png"></div>
+        <div class="link"><a href="http://learnlayout.com/float-layout.html" target="_blank"></a><img src="/Images/learn_layout.png"></div>
+        <div class="link"><a href="https://codepen.io/devtips/pen/gbVXMP" target="_blank"><img src="/Images/codepen.png"></a></div>
+    </div>
+
+    <div class="links second" data-content="sectionSecond">
+        <div class="link"><a href="https://css-tricks.com/all-about-floats/" target="_blank"></a><img src="/Images/css_tricks.png"></div>
+        <div class="link"><a href="http://learnlayout.com/float-layout.html" target="_blank"></a><img src="/Images/learn_layout.png"></div>
+        <div class="link"><a href="https://codepen.io/devtips/pen/gbVXMP" target="_blank"><img src="/Images/codepen.png"></a></div>
+    </div>
+
+
+    <div class="links third" data-content="sectionThird">
+        <div class="link"><a href="https://www.w3schools.com/cssref/tryit.asp?filename=trycss_class-clear" target="_blank"><img src="/Images/w3.png"></a></div>
+        <div class="link"><a href="http://learnlayout.com/clear.html" target="_blank"><img src="/Images/learn_layout.png"></a></div>
+        <div class="link"><a href="https://stackoverflow.com/questions/12871710/what-does-the-css-rule-clear-both-do" target="_blank"><img src="/Images/stack.png"></a></div>
+        <div class="link"><a href="https://css-tricks.com/almanac/properties/c/clear/" target="_blank"><img src="/Images/css_tricks.png"></a></div>
+
+    </div>
+
+</div>
+
+
+<!--Right Side Code-------------------------------------------------------------->
+
+
+
+
+
+
+          
+        
+    </div>
+    
+    
+
+<div class="right css">
+      <iframe width="500" height="315" src="https://www.youtube.com/embed/xara4Z1b18I?&autoplay=1" frameborder="0" allowfullscreen></iframe>     
+</div>
+
+<a href="/css/Meat/flexbox.html">
+    <div class="next_section_meat" id="css">
+        <p>Next Section: Flex Box</p> <img class="arrow" src="/Images/Asset%201.svg"> 
+    </div>
+</a>
+
+
+
+</article>
+
+      </div>
+    </main>
+
+   
+
+  </body>
+
+</html>
